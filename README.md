@@ -7,6 +7,5 @@
   - Typescript  
   - Clojure
 
-
 - Backend
   - Nodejs
