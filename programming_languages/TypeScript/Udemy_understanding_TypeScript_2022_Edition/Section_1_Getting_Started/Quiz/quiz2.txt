@@ -1,0 +1,38 @@
+success alert
+Good job!
+That's correct. As you learned, callback functions can return something, even if the argument on which they're passed does NOT expect a returned value.
+Question 1:
+Will this code compile?
+
+function sendRequest(data: string, cb: (response: any) => void) {
+  // ... sending a request with "data"
+  return cb({data: 'Hi there!'});
+}
+ 
+sendRequest('Send this!', (response) => { 
+  console.log(response);
+  return true;
+ });
+
+
+What's the idea behind a "function type"?
+- Answer Function types define the parameters and return types of a function
+
+
+Which code snippet is better (i.e. which code should you write)?
+
+1)
+
+function sayHi(): void {
+  // ...
+}
+OR
+
+2)
+
+function sayHi(): undefined {
+  // ...
+}
+
+
+1. Because it doesn't force you to return anything if you dont want to return anything
