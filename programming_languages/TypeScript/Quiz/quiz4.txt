@@ -1,0 +1,20 @@
+1. 
+What's a "static method"?
+    Answer: 
+    A method you call directly on a class, not on an object based on it.
+
+Question 2:
+What's the idea behind "inheritance"?
+    Answer: 
+    You can set up a base class and then create more specialized classes that inherit from it.
+
+Question 3:
+What's an abstract class?
+    Answer: 
+    That's correct! Abstract classes can't be instantiated.
+
+Question 4:
+What's the idea behind "singleton classes"?    
+    Answer: 
+    A singleton class is configured such that you don't create it with "new" 
+    but by calling a method which then ensures that only one instance of the class exists at any given time.
