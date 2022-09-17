@@ -1,0 +1,40 @@
+Question 1:
+What's the core idea behind classes?
+
+Classes are blueprints for javascript objects 
+
+----------------------------------------------------------------------------------------------------------------
+Question 2:
+What's a class property?
+
+
+A variable in a class
+----------------------------------------------------------------------------------------------------------------
+Question 3:
+What's the idea of the private and public modifiers?
+
+Good job!
+That's correct! You ensure that a "private" property is only accessible from inside a class (e.g. from inside a class method).
+
+----------------------------------------------------------------------------------------------------------------
+Question 4:
+How can you shorten the following code in the best possible way?
+
+class Product {
+  title: string;
+  price: number;
+  private isListed: boolean;
+ 
+  constructor(name: string, pr: number) {
+    this.title = name;
+    this.price = pr;
+    this.isListed = true;
+  }
+
+  class Product {
+    private isListed: boolean;
+
+     constructor(public title: string, public price: number) {
+        this.isListed = true;
+    }
+}

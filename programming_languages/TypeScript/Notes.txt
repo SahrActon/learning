@@ -1,0 +1,30 @@
+// think of EitherAsync - like promises in javascript
+e.g. .then
+
+Monads- they are wrapping the values that you are dealing with
+Either can be left of right
+left - is a error path
+right  - right happy path
+
+
+await EitherAsync.liftEither(validateAndParseRequestForMe(req)) // we are checking the request here
+    .chain(makeChatRequestUpdateIfAllowed) // if the line above successed
+    .map(handleSuccessfulUpdate)
+    .map(emitChatRequestUpdatedMeEvent)
+    .mapLeft(handleErrorStatus) // if it fails then it will short curcits then it will go left
+    .run();
+
+EitherAsync<DomainError | InfrastructureError | CaseError, ChatRequest>;
+EitherAsync<things that can go wrong, things that can go right>; // there can only be one thing that can go right
+
+
+54  git add src/application/__tests__/update-chat-request.integration.spec.ts -p
+  555  git commit -m "[sc-45681] implement intergration test for delete chat room"
+  556  git add src/application/api/middleware/featureToggles.ts -p
+  557  git add src/application/api/update-chat-request-handler.ts -p
+
+// Great for pre-loading
+curry = currying -
+
+const add (num: number, num1:number) => num1 + num2;
+const add1 = curry(add(1))
