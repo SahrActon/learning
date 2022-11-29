@@ -1,0 +1,5 @@
+name1 icecream 2 2
+name1 apple_pie 3.5 10
+name1 chicken_wings 3.5 10
+name2 jumper 15 2
+name2 skipping rope 10.5 1

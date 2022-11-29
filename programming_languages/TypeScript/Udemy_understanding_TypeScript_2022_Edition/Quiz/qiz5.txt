@@ -1,0 +1,10 @@
+Question 1:
+
+What's a core difference between a class and an interface?
+
+Answer - Interfaces can't be instantiated and are not compiled, classes can be instantiated and are compiled.
+
+Question 2:
+
+Which of the following example is NOT a valid use-case for an interface?
+You want to store a union type

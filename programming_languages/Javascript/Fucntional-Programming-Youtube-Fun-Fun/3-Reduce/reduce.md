@@ -1,0 +1,1 @@
+The reduce() method executes a reducer function on each element of the array and returns a single output value.

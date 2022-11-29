@@ -1,0 +1,4 @@
+# Preface
+Functional programming is a programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data. The origins of the functional programming paradigm can be traced back to the 1930s when Alonzo Church introduced Lambda calculus. Lambda calculus presents a theoretical framework for describing functions and their evaluation, and is a mathematical abstraction rather than a programming language. However, Lambda calculus is the foundation of most functional programming languages.
+
+In the late 1950s, Lisp, one of the first functional programming languages, was developed by John McCarthy. Lisp introduced many functional programming paradigm features, and it was the primary influence of other popular functional programming languages, such as Scheme and Clojure.
